@@ -11,6 +11,13 @@
 ### **3) En un sobre hay 20 papeles, 8 poseen un dibujo de un coche, las restantes son blancas. Hallar la probabilidad de extraer al menos un papel con el dibujo de un coche si:**  
 <br>
 
+## Suponga tiene la tabla ARTICULOS compuesta de la siguiente forma:
+
+| IDArticulo | PRECIO | Proveedor |
+|--------|--------|----|
+| valor | valor | valor |
+|valor  | valor  | valor |
+
 ### **4) Cree una consulta SQL que obtenga los datos de la tabla ARTICULOS atículos cuyo PRECIO esté entre los 60 y los 120 USD (ambas cantidades incluidas) .**
 <br>
 
