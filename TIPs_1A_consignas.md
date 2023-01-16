@@ -6,54 +6,54 @@ Esto servirá para tus entrevistas laborales asi que ¡actúa como que estuviera
 
 <br>
 
-### **1) ¿Qué tipos nativos de estructuras de datos de Python conoces? ¿Cuáles son inmutables?**
-
-
-
-
-### **2)¿Qué es una variable categórica en Pandas?**
-
-
-
-
-### **3) ¿Qué tipo de filtros pueden implementarse en POWER BI?**
-
-<br>
+### **1) ¿Cuál es la principal diferencia entre listas y sets? Nombre dos operaciones posibles con sets**
 <br>
 
 
-## Suponga que tiene las tablas *SALAS* y *PELICULAS* compuestas de la siguiente forma.
 
-### SALAS                     
+### **2)¿Qué enuncia el teorema CAP?**  
+<br>
+
+
+
+### **3) ¿Cuál es la diferencia entre medida calculada, columna calculada y tabla calculada?**
+<br>
+
+<hr>
+
+## Suponga que tiene las tablas *Albumes* y *Canciones* compuestas de la siguiente forma.
+
+### Albumes                     
 
 | `PK` | Codigo | int |
 |--------|--------|:--------:|
 |  | Nombre | nvarchar(100) |
-| `FK1`  | Pelicula  | int |
+|  | Artista  | nvarchar(100) |
   
 
-### PELICULAS
+### Canciones
   
 | `PK` | Codigo | int |
 |--------|:--------|:--------:|
+| `FK1`| Codigo_album | int
 |  | Nombre | nvarchar(100) |
 |  | CalificacionEdad  | int |
+|  | Duracion  | int |
   
-Note que existe una relacion entre *`FK1` - Pelicula* de la tabla SALAS y *`PK`-Codigo* de la tabla PELICULAS
+Note que existe una relacion entre *`FK1` - Codigo_album* de la tabla Canciones y *`PK`-Codigo* de la tabla Albumes
   
 <br>
 
 ## Con dichas tablas construya las siguientes queries:
-### **4) Seleccione todas las salas que no estan proyectando ninguna pelicula** </p>
+### **4) Seleccione todos los artistas que tengan al menos 2 álbumes** </p>
 
 <br>
   
 
-### **5) Actualice las peliculas que no han sido calificadas como no recomendables para menores de 16 años.**
+### **5) Seleccione los valores únicos de artistas de la tabla álbumes y ordenelos de la Z a la A.**
+  
 <br>
   
-  
-### **6) Seleccione los nombres de las pelıculas que no se proyectan en ninguna sala.**
 
 
 # ¡A PENSAR!

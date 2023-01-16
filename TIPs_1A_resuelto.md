@@ -6,97 +6,85 @@ Bajo ningun punto de vista queremos su compañer@ pase un mal momento! Simplemen
 
 <br>
   
-### **1) ¿Qué tipos nativos de estructuras de datos de Python conoces? ¿Cuáles son inmutables?**
+### **1) ¿Cuál es la principal diferencia entre listas y sets? Nombre dos operaciones posibles con sets**
 
-__Respuesta Esperada__:   _Las estructuras de datos nativas en Python son las listas, los diccionarios, las tuplas y los sets, estos últimos dos son inmutables (no puedes cambiar su contenido una vez declarados)._
+__Respuesta Esperada__:   _Tantos los sets como las listas, son de las 4 estructuras nativas de Python. Los sets, a diferencia de las listas, son inmutables, no admiten duplicados ni ordenamiento. Los sets permiten hacer operaciones como intersection, union, difference y symmetric difference_
 
-### **2)¿Qué es una variable categórica en Pandas?**
-
-__Respuesta Esperada__:   _Las VARIABLES CATEGÓRICAS son un tipo de dato que maneja nativamente pandas (type=category). Una variable categórica toma solo una categoría fija(generalmente un número fijo) de valores. Algunos ejemplos de variables categóricas son género, grupo sanguíneo, idioma, etc. Un contraste principal con estas variables es que no se pueden realizar operaciones matemáticas con estas variables._
-
-### **3) ¿Qué tipo de filtros pueden implementarse en POWER BI?**
+### **2)¿Qué enuncia el teorema CAP?**  
+<br>
 
 __Respuesta Esperada__:   
 
-  
-  
-  _Pueden implementarse 3 tipos de filtros:_
-  - Filtros a nivel visualización: Filtra tanto datos como medidas calculadas, limitando la cantidad de información que puede verse en una visualización determinada.
+_El teorema CAP, o conjetura de Brewer, enuncia que ningún sistema de almacenamiento de datos puede garantizar en forma simultánea:_
+  - _Consistency_
+  - _Availability_
+  - _Partitioning tolerance_
 
-  - Filtros a nivel página: Filtra la info en todas las visualizaciones de una página específica del reporte.
+### **3) ¿Cuál es la diferencia entre medida calculada, columna calculada y tabla calculada?**
 
-  - Filtros a nivel reporte: se aplican a todas las páginas y visualizaciones en simultáneo.
+__Respuesta Esperada__:   
+
+- _Columna Calculada:_
+  - _Se agregan a tablas existentes mediante fórmulas DAX sobre columnas existentes_
+  - _Define y almacena valores en una columna nueva sin hacer query a la fuente de datos_
+- _Tabla calculada:_
+  - _Creada mediante fórmula DAX para definir todos sus valores_
+_Puede crearse tanto en Vista Reporte como en Vista Data_
+- _Medidas:_
+  - _Se realizan a través de la query_
 
 <br>
-<br>
   
+<hr>
 
-## Suponga que tiene las tablas *SALAS* y *PELICULAS* compuestas de la siguiente forma.
+## Suponga que tiene las tablas *Albumes* y *Canciones* compuestas de la siguiente forma.
 
-### SALAS                     
+### Albumes                     
 
 | `PK` | Codigo | int |
 |--------|--------|:--------:|
 |  | Nombre | nvarchar(100) |
-| `FK1`  | Pelicula  | int |
+|  | Artista  | nvarchar(100) |
   
 
-### PELICULAS
+### Canciones
   
 | `PK` | Codigo | int |
 |--------|:--------|:--------:|
+| `FK1`| Codigo_album | int
 |  | Nombre | nvarchar(100) |
 |  | CalificacionEdad  | int |
+|  | Duracion  | int |
   
-Note que existe una relacion entre *`FK1` - Pelicula* de la tabla SALAS y *`PK`-Codigo* de la tabla PELICULAS
+Note que existe una relacion entre *`FK1` - Codigo_album* de la tabla Canciones y *`PK`-Codigo* de la tabla Albumes
   
 <br>
 
 ## Con dichas tablas construya las siguientes queries:
-### **4) Seleccione todas las salas que no estan proyectando ninguna pelicula** </p>
+### **4) Seleccione todos los artistas que tengan al menos 2 álbumes** </p>
 
 <br>
   
 __Respuesta Esperada__:
 ```sql
-SELECT * 
-FROM SALAS 
-WHERE Pelicula IS NULL
+SELECT Artista, COUNT(Codigo) as Cantidad_albumes
+FROM Albumes 
+GROUP BY Artista
+HAVING COUNT(Codigo) <= 2;
 ```
 <br>
 
-### **5) Actualice las peliculas que no han sido calificadas como no recomendables para menores de 16 años.**
-<br>
-  
-__Respuesta Esperada__:
-```sql
-UPDATE PELICULAS SET  CalificacionEdad=16
-WHERE CalificacionEdad IS NULL
-```
-
-  
-### **6) Seleccione los nombres de las pelıculas que no se proyectan en ninguna sala.**
+### **5) Seleccione los valores únicos de artistas de la tabla álbumes y ordenelos de la Z a la A.**
   
 <br>
   
 __Respuesta Esperada__:   
-<sub>Con JOIN<sub>
+
 ```sql
-SELECT PELICULAS.Nombre
-FROM SALAS RIGHT JOIN PELICULAS
-ON SALAS.Pelicula = PELICULAS.
+SELECT DISTINCT Artista
+FROM Albumes 
+ORDER BY Artista DESC;
 ```
 <br>
-  
-<sub>Con Subconsulta<sub>
 
-
-```sql
-SELECT Nombre 
-FROM PELICULAS
-WHERE Codigo NOT IN (
-SELECT Pelicula FROM SALAS
-WHERE Pelicula IS NOT NULL
-)
-```
 
