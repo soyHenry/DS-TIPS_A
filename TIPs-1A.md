@@ -3,14 +3,16 @@
 <p><img alt="henry" src="https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg" /> </p>
 <p>Esto servirá para tus entrevistas laborales asi que ¡actúa como que estuvieras en una! :bowtie: </p>
 <h2>Elegir la opción correspondiente</h2>
-<h3>1)  Explique la diferencia entre la cláusula WHERE y la cláusula HAVING</h3>
-<h3>2)  ¿Qué alcance tienen las variables en las funciones de Python?</h3>
-<h3>3)  Nombrar las diferencias entre una Tupla y una Lista.</h3>
-<h3>4)  ¿Qué es DAX?</h3>
+<h3>1)  ¿Qué es la normalización en SQL?</h3>
+<h3>2)  ¿Qué librerías de visualización para Python conoce? ¿Y para graficar mapas geográficos? ¿Y para realizar Dashboards?</h3>
+<h3>3)  ¿Cuál es la principal diferencia entre listas y sets? Nombre dos operaciones posibles con sets</h3>
+<h3>4)  ¿Cuál es la diferencia entre medida calculada, columna calculada y tabla calculada?</h3>
 <h3>5)  ¿Qué es la distribución normal?</h3>
-<h3>6)  Ejercicio de estadística descriptiva:</h3>
-<p>Suponga que tiene una muestra de n = 10 observaciones con las siguientes puntuaciones: 7, 5, 8, 6, 4, 9, 6, 8, 7, 5. Calcule la media, la mediana y la desviación estándar de la muestra. </p>
+<h3>6)  Se lanzan dos dados al aire y se anota la suma de puntos obtenidos. Se pide:
+
+i. La probabilidad de que salga 7.
+
+ii. La probabilidad de que el número obtenido sea par.</h3>
 <h1>¡A PENSAR!</h1>
 <h1>Recuerda que no deberías poder usar Google.</h1>
 <p><img alt="img" src="https://thumbs.gfycat.com/KaleidoscopicFaintHind-size_restricted.gif" /></p>
-
