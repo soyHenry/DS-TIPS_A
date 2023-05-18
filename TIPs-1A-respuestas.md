@@ -2,27 +2,32 @@
 <h2>Grupo A --&gt; Primer Set de Tips con Respuestas</h2>
 <h2>NO MOSTRAR A SUS PAREJAS DE TIPS!</h2>
 <h3>1)  Respuesta:</h3>
-<p>La normalización es el proceso de organizar los datos en una base de datos relacional en tablas separadas para reducir la redundancia y mejorar la integridad de los datos. </p>
+<p>Las funciones de agregación realizan análisis estadísticos sobre número (o fechas en algunos casos. Count, AVG, Max, Min, STDDEV, Variance. </p>
 <h3>2)  Respuesta:</h3>
-<p>Hay muchas. Entre las más utilizadas para realizar visualizaciones varias está matplotlib (de muy bajo nivel), seaborn (construida sobre matplotlib), plotly (muy completa y de alto nivel, permite simplificar mucho la sintaxis para realizar gráficos interactivos pero es computacionalmente más costosa), plotnine (muy similar a ggplot2 muy usado en el lenguaje R), Gleam (muy similar a Shiny en el lenguaje R), missingno (muy útil para lidiar con datos faltantes), leather (permite generar gráficos simples pero en formato SVG muy escalables a cualquier resolución), Bokeh (permite gráficos interactivos) y Altair (permite gráficos interactivos muy llamativos). Para mapas, pueden utilizar Plotly, Bokeh, Altair, la librería Folium permite crear mapas interactivos muy personalizables y computacionalmente más baratos que plotly, también está la librería Geoplotlib. Para los dashboards, se puede utilizar Bokeh, Dash o Streamlit. </p>
+<p>En Python, los errores se manejan utilizando bloques try-except. El código que se cree que puede generar un error se coloca dentro del bloque try, mientras que el código para manejar el error se coloca dentro del bloque except. </p>
 <h3>3)  Respuesta:</h3>
-<p>Tanto los sets como las listas, son de las 4 estructuras nativas de Python. Los sets, a diferencia de las listas, son inmutables, no admiten duplicados ni ordenamiento. Los sets permiten hacer operaciones como intersection, union, difference y symmetric difference </p>
+<p>Hay dos tipos de alcances que tienen las variables en Python. Las variables locales están declaradas dentro de una función, no puede ser llamada desde el espacio global (fuera de la función). Las variables globales, están declaradas en el espacio global (entorno) y pueden ser llamadas dentro de distintas funciones dentro del mismo entorno. </p>
 <h3>4)  Respuesta:</h3>
-<p>Columna Calculada:</p>
-<p>Se agregan a tablas existentes mediante fórmulas DAX sobre columnas existentes
-Define y almacena valores en una columna nueva sin hacer query a la fuente de datos</p>
-<p>Tabla calculada:</p>
-<p>Creada mediante fórmula DAX para definir todos sus valores
-Puede crearse tanto en Vista Reporte como en Vista Data</p>
-<p>Medidas:</p>
-<p>Se realiza a través de la query.</p>
+<p>DAX viene de “Data Analysis Expressions”. Es una colección de funciones, operadores y constantes usadas en fórmulas para calcular y retornar valores en POWER BI. </p>
 <h3>5)  Respuesta:</h3>
-<p>La distribución normal es una distribución de probabilidad continua que se utiliza para modelar muchos fenómenos naturales y sociales. La distribución normal se caracteriza por una curva en forma de campana y se utiliza para describir variables que tienen una distribución simétrica. </p>
+<p>i. Casos Favorables: 8
+Casos posibles: 8 + 5 + 7 = 20
+Probabilidad = Casos Favorables/Casos Posibles= 8/20 = 0.4</p>
+<p>ii. Casos Favorables: 7
+Casos posibles: 8 + 5 + 7 = 20
+Probabilidad = Casos Favorables/Casos Posibles= 7/20 = 0.35</p>
+<p>iii. Casos Favorables: 5
+Casos posibles: 8 + 5 + 7 = 20
+Probabilidad = Casos Favorables/Casos Posibles= 5/20 = 0.25</p>
 <h3>6)  Respuesta:</h3>
-<p>i. Casos Favorables: 6 (1+6),(2+5),(3+4)... 
-Casos Posibles: 62 = 36
-Probabilidad = Casos FavorablesCasos Posibles= 636 = 0.1666...
-
-ii. Casos posibles = 36
-Casos Favorables = 18
-Probabilidad = Casos FavorablesCasos Posibles= 1836 = 0.5 </p>
+<p>a) 8 casos favorables de 20 posibles = 8/20 =  0.4</p>
+<p>b)La probabilidad de que al sacar 2 papeles al menos tenga un coche menos la probabilidad de que al sacar 2 papeles las dos sean blancas. Por lo tanto:
+= 1 - P(2 Blancas)
+= 1 - (12/20)*(12/20)
+= 1 - 0.36
+= 0.64</p>
+<p>c) Tenemos la probabilidad de que al sacar 3 papeles al menos una tenga un coche menos la probabilidad de que al sacar 3 todas sean blancas. Por lo tanto:
+= 1 - P(3 Blancas)
+= 1 - (12/20)<em>(12/20)</em>(12/20)
+= 1 - 0.216
+= 0.784</p>
