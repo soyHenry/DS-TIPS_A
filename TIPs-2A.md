@@ -5,9 +5,9 @@
 <h2>Elegir la opción correspondiente</h2>
 <h3>1)  ¿Cuál es la diferencia entre un JOIN interno y un JOIN externo en SQL?</h3>
 <h3>2)  Nombrar las diferencias entre una Tupla y una Lista. </h3>
-<h3>3)  ¿A qué se refieren con el nivel en los lenguajes de programación? ¿A qué nivel pertenece Python y por que?</h3>
+<h3>3)  ¿A qué se refieren con el nivel en los lenguajes de programación? ¿A qué nivel pertenece Python y por qué?</h3>
 <h3>4)  ¿Qué tipo de filtros pueden implementarse en POWER BI?</h3>
-<h3>5)  Se tiene una muestra de 1000 clientes de una tienda en línea. Se sabe que el 60% de los clientes son del grupo  A y el 40% del grupo B. Se selecciona al azar una persona de la muestra. ¿Cuál es la probabilidad de que sea del grupo A?</h3>
+<h3>5)  Se tiene una muestra de 1000 clientes de una tienda en línea. Se sabe que el 60% de los clientes son del grupo  A y el 40% del grupo B. Se selecciona al azar una persona de la muestra ¿Cuál es la probabilidad de que sea del grupo A?</h3>
 
 <h3>6) ¿Qué es la distribución normal?</h3>
 
