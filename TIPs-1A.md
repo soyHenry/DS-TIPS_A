@@ -11,7 +11,7 @@
 <p>i. Sea Roja</p>
 <p>ii. Sea Verde</p>
 <p>iii. Sea Amarilla</p>
-<h3>6)  En un sobre hay 20 papeles: 8 poseen un dibujo de un coche y los restantes son blancos. Hallar la probabilidad de extraer al menos un papel con el dibujo de un coche:</h3>
+<h3>6)  En un sobre hay 20 papeles; 8 poseen un dibujo de un coche y los restantes son blancos. Hallar la probabilidad de extraer al menos un papel con el dibujo de un coche:</h3>
 <p>a) Si se saca solo un papel</p>
 <p>b) Si se extraen dos papeles</p>
 <p>c) Si se extraen 3 papeles</p>
