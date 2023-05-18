@@ -2,24 +2,20 @@
 <h2>Grupo A --&gt; Segundo Set de Tips con Respuestas</h2>
 <h2>NO MOSTRAR A SUS PAREJAS DE TIPS!</h2>
 <h3>1)  Respuesta:</h3>
-<p>Una subconsulta es una consulta hecha sobre otra consulta.</p>
-<p>SELECT <column_name> FROM <table_name> </p>
-<p>WHERE <column_name> IN/NOT IN </p>
-<p>(subconsulta)</p>
+<p>Un JOIN interno en SQL devuelve solo los registros que tienen coincidencias en ambas tablas, mientras que un JOIN externo devuelve todos los registros de una tabla y los registros coincidentes de otra tabla. </p>
 <h3>2)  Respuesta:</h3>
-<p>Un data lake es un repositorio centralizado que permite almacenar datos tanto estructurado como no estructurados en cualquier escala.
+<p>Lista: Mutable, velocidad inferior y utilización de corchetes.
 
-Un data warehouse es una base de datos o sistema de almacenamiento especializada, diseñada para consultas rápidas de datos estructurados de manera eficiente y escalable, típicamente usado para aplicaciones de BI y analytics. </p>
+Tupla: Inmutable, velocidad superior y utilización de paréntesis. </p>
 <h3>3)  Respuesta:</h3>
-<p>Los iteradores son objetos que contienen algunos valores contables. Ejemplo listas, tuplas, conjuntos y diccionarios. </p>
+<p>El nivel en los lenguajes de programación se refiere a qué tan parecido es al código que leen los procesadores, mientras más bajo sea el nivel, más similar al código que leen los procesadores y más rápido podrá ser procesado una vez compilado, pero como contraparte mucho más complejo será escribir dicho código, mientras mayor sea el nivel, más fácil es expresarlo para las personas, más natural al humano, pero es costoso de compilar y se procesan menos eficientemente. Python se considera un lenguaje de alto nivel, con una sintaxis muy simplificada que facilita la creación de código. Es un lenguaje interpretado, no necesita ser compilado, sino que el intérprete de Python va leyendo e interpretando el código una vez que es ejecutado. </p>
 <h3>4)  Respuesta:</h3>
-<p>Hay 3 tipos de vistas disponibles, cada una con un propósito diferente:</p>
-<p>Vista Reporte: permite añadir páginas, visualizaciones y publicar</p>
-<p>Vista de Data: permite realizar manejo de datos usando herramientas de Query Editor</p>
-<p>Vista de Modelo: permite manejar las relaciones entre las tablas de datos</p>
+<p>Pueden implementarse 3 tipos de filtros:</p>
+<p>Filtros a nivel visualización: Filtra tanto datos como medidas calculadas, limitando la cantidad de información que puede verse en una visualización determinada.</p>
+<p>Filtros a nivel página: Filtra la info en todas las visualizaciones de una página específica del reporte.</p>
+<p>Filtros a nivel reporte: se aplican a todas las páginas y visualizaciones en simultáneo.</p>
 <h3>5)  Respuesta:</h3>
-<p>La estadística descriptiva es una rama de la estadística que se utiliza para resumir y describir las características y patrones de un conjunto de datos. Algunas de las medidas comunes utilizadas en la estadística descriptiva son la media, la mediana, la moda y la desviación estándar. </p>
+<p>La probabilidad de que la persona seleccionada sea del grupo A es simplemente el porcentaje de personas del grupo A en la muestra, que es del 60%. Por lo tanto, la probabilidad de que la persona seleccionada sea A es del 60%. </p>
+
 <h3>6)  Respuesta:</h3>
-<p>Media: (7+5+8+6+4+9+6+8+7+5)/10 = 6.5</p>
-<p>Mediana: Ordenando los datos: 4, 5, 5, 6, 6, 7, 7, 8, 8, 9. La mediana es el valor medio entre el quinto y sexto número, es decir, (6 + 7)/2 = 6.5</p>
-<p>Desviación estándar: Primero se calcula la varianza, que es la suma de los cuadrados de las desviaciones de cada punto de la media dividido por n-1. (7-6.5)^2 + (5-6.5)^2 + (8-6.5)^2 + (6-6.5)^2 + (4-6.5)^2 + (9-6.5)^2 + (6-6.5)^2 + (8-6.5)^2 + (7-6.5)^2 + (5-6.5)^2 = 55.5. Entonces, la desviación estándar es la raíz cuadrada de la varianza dividida por n-1: sqrt(55.5/9) = 2.20 </p>
+<p>La distribución normal es una distribución de probabilidad continua que se utiliza para modelar muchos fenómenos naturales y sociales. La distribución normal se caracteriza por una curva en forma de campana y se utiliza para describir variables que tienen una distribución simétrica.</p>
