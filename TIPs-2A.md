@@ -1,7 +1,7 @@
 <h1>TIPS: Technical Interview Preparation</h1>
 <h2>Grupo A --&gt; Segundo Set de Tips</h2>
 <p><img alt="henry" src="https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg" /> </p>
-<p>Esto servirá para tus entrevistas laborales asi que ¡actúa como que estuvieras en una! :bowtie: </p>
+<p>Esto servirá para tus entrevistas laborales asi que ¡actúa como si estuvieras en una! :bowtie: </p>
 <h2>Elegir la opción correspondiente</h2>
 <h3>1)  ¿Cuál es la diferencia entre un JOIN interno y un JOIN externo en SQL?</h3>
 <h3>2)  Nombrar las diferencias entre una Tupla y una Lista. </h3>
