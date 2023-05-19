@@ -11,6 +11,42 @@
 
 <h3>6) ¿Qué es la distribución normal?</h3>
 
+<br>
+
+# Ejercicio practico SQL
+### Suponga que tiene las tablas *SALAS* y *PELICULAS* compuestas de la siguiente forma.
+
+### SALAS                     
+
+| `PK` | Codigo | int |
+|--------|--------|:--------:|
+|  | Nombre | nvarchar(100) |
+| `FK1`  | Pelicula  | int |
+  
+
+### PELICULAS
+  
+| `PK` | Codigo | int |
+|--------|:--------|:--------:|
+|  | Nombre | nvarchar(100) |
+|  | CalificacionEdad  | int |
+  
+Note que existe una relacion entre *`FK1` - Pelicula* de la tabla SALAS y *`PK`-Codigo* de la tabla PELICULAS
+  
+<br>
+
+## Con dichas tablas construya las siguientes queries:
+### **a) Seleccione los valores unicos de calificaciones de edad que existen.**
+
+
+### **b) Se ha agregado una nueva pelicula llamada "Hola, Mundo" para mayores de 8 años. Actualice la tabla correspondiente**
+
+  
+### **c) Seleccione todas las salas, y si se proyecta alguna pelicula en la sala, selecciones tambien la informacion de la pelicula proyectada**
+  
+<br>
+
+
 <h1>¡A PENSAR!</h1>
 <h1>Recuerda que no deberías poder usar Google.</h1>
 <p><img alt="img" src="https://camo.githubusercontent.com/dbcddd7088648e4ffbd139c31d5f0fb1b1b677650e1ebbe22293d4fd2b44b774/68747470733a2f2f6d656469612e74656e6f722e636f6d2f646f49736f48343361324541414141432f7468696e6b2d656d6f6a692e676966" /></p>
