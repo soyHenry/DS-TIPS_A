@@ -19,3 +19,62 @@ Tupla: inmutable, velocidad superior y utilización de paréntesis </p>
 
 <h3>6)  Respuesta:</h3>
 <p>La distribución normal es una distribución de probabilidad continua que se utiliza para modelar muchos fenómenos naturales y sociales. La distribución normal se caracteriza por una curva en forma de campana y se utiliza para describir variables que tienen una distribución simétrica.</p>
+
+<br>
+
+# Ejercicio practico SQL
+### Suponga que tiene las tablas *SALAS* y *PELICULAS* compuestas de la siguiente forma.
+
+### SALAS                     
+
+| `PK` | Codigo | int |
+|--------|--------|:--------:|
+|  | Nombre | nvarchar(100) |
+| `FK1`  | Pelicula  | int |
+  
+
+### PELICULAS
+  
+| `PK` | Codigo | int |
+|--------|:--------|:--------:|
+|  | Nombre | nvarchar(100) |
+|  | CalificacionEdad  | int |
+  
+Note que existe una relacion entre *`FK1` - Pelicula* de la tabla SALAS y *`PK`-Codigo* de la tabla PELICULAS
+  
+<br>
+
+## Con dichas tablas construya las siguientes queries:
+### **a) Seleccione los valores unicos de calificaciones de edad que existen.**
+<br>
+  
+__Solucion propuesta__:
+```sql
+SELECT DISTINCT CalificacionEdad 
+FROM PELICULAS
+```
+
+
+### **b) Se ha agregado una nueva pelicula llamada "Hola, Mundo" para mayores de 8 años. Actualice la tabla correspondiente**
+<br>
+  
+__Solucion propuesta__:
+```sql
+INSERT INTO PELICULAS (Nombre, CalificacionEdad)
+VALUES ("Hola, Mundo", 8)
+```
+
+  
+### **c) Seleccione todas las salas, y si se proyecta alguna pelicula en la sala, selecciones tambien la informacion de la pelicula proyectada**
+  
+<br>
+  
+__Solucion propuesta__:   
+
+```sql
+SELECT *
+FROM SALAS LEFT JOIN PELICULAS
+ON SALAS.Pelicula = PELICULAS.Codigo
+```
+<br>
+  
