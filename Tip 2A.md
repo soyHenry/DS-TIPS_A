@@ -1,11 +1,11 @@
 <h1>TIPS: Technical Interview Preparation</h1>
 <h2>Grupo A --&gt; Segundo Set de Tips</h2>
 <p><img alt="henry" src="https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg" /> </p>
-<p>Esto servirá para tus entrevistas laborales asi que ¡actúa como que estuvieras en una! :bowtie: </p>
+<p>Esto servirá para tus entrevistas laborales, asi que ¡actúa como que estuvieras en una! :bowtie: </p>
 <h2>Elegir la opción correspondiente</h2>
 <h3>1)  Describa la diferencia entre claves primarias y foráneas en una base de datos SQL</h3>
 <h3>2)  ¿Qué es la complejidad algorítmica? ¿Con qué símbolo o letra se representa la notación de la cota superior?</h3>
-<h3>3)  Escribí una función que tome una lista de números y calcule su suma.</h3>
+<h3>3)  Escriba una función que tome una lista de números y calcule su suma</h3>
 <h3>4)  ¿Cuál es la diferencia entre medida calculada, columna calculada y tabla calculada?</h3>
 <h3>5)  Se lanzan dos dados al aire y se anota la suma de puntos obtenidos. Se pide:</h3>
 <p>i. La probabilidad de que salga 7.</p>
