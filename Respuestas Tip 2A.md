@@ -2,39 +2,31 @@
 <h2>Grupo A --&gt; Segundo Set de Tips con Respuestas</h2>
 <h2>NO MOSTRAR A SUS PAREJAS DE TIPS!</h2>
 <h3>1)  Respuesta:</h3>
-<p>La clave primarias (o primary key) es el campo, o conjunto de campos, que nos permite identificar de forma única un registro. La clave foránea (o foreign key) es un campo, o conjunto de campos, que nos permite relacionar un registro de una tabla con otro, generalmente en una tabla distinta. </p>
+<p>Las funciones de agregación realizan análisis estadísticos sobre número (o fechas en algunos casos. Count, AVG, Max, Min, STDDEV, Variance. </p>
 <h3>2)  Respuesta:</h3>
-<p>La complejidad algorítmica en programación es una medida del tiempo y recursos necesarios para ejecutar un algoritmo en función del tamaño de entrada. Se busca optimizar esta complejidad para mejorar la eficiencia del programa.</p>
-<p>La notación de la cota superior se representa mediante el símbolo "O" (Orden de) seguido de la función que describe la complejidad del algoritmo.
- Por ejemplo, si un algoritmo tiene una complejidad de O(n^2), significa que el tiempo de ejecución del algoritmo crece cuadráticamente en función del tamaño de entrada.</p>
+<p>Lista: Mutable, velocidad inferior y utilización de corchetes.</p>
+<p>Tupla: Inmutable, velocidad superior y utilización de paréntesis.</p>
 <h3>3)  Respuesta:</h3>
-<p><code>def suma_numeros(lista):
-    suma = 0
-    for numero in lista:
-        suma += numero
-    return suma
-suma_numeros([1, 4, 6, 14, 18, 9])</code> </p>
+<p>```def es_bisiesto(anio):
+    if anio % 4 == 0:
+        if anio % 100 == 0:
+            if anio % 400 == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    else:
+        return False</p>
+<p>anio = 2024
+if es_bisiesto(anio):
+    print(anio, "es un año bisiesto")
+else:
+    print(anio, "no es un año bisiesto")``` </p>
 <h3>4)  Respuesta:</h3>
-<p>Columna Calculada:</p>
-<p>Se agregan a tablas existentes mediante fórmulas DAX sobre columnas existentes. Define y almacena valores en una columna nueva sin hacer query a la fuente de datos</p>
-<p>Tabla calculada:</p>
-<p>Creada mediante fórmula DAX para definir todos sus valores. Puede crearse tanto en Vista Reporte como en Vista Data</p>
-<p>Medidas:</p>
-<p>Se realiza a través de la query</p>
+<p>DAX viene de “Data Analysis Expressions”. Es una colección de funciones, operadores y constantes usadas en fórmulas para calcular y retornar valores en POWER BI. </p>
 <h3>5)  Respuesta:</h3>
-<p>i. Casos Favorables: 6 = (1+6),(2+5),(3+4)... 
-Casos Posibles: 6*6 = 36
-Probabilidad = Casos Favorables/Casos Posibles = 6/36 = 0.1667</p>
-<p>ii. Casos posibles = 36
-Casos Favorables = 18
-Probabilidad = Casos FavorablesCasos Posibles= 18/36 = 0.5</p>
+<p>a) E = {BB,BR,BV,BN,RB,RR,RV,RN,VB,VR,VV,VN,NB,NR,NV,NN}</p>
+<p>b) E={BR,BV,BN,RB,RV,RN,VB,VR,VN,NB,NR,NV}</p>
 <h3>6)  Respuesta:</h3>
-<p>i. Casos Favorables: 8
-Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos Favorables/Casos Posibles= 8/20 = 0.4</p>
-<p>ii. Casos Favorables: 7
-Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos Favorables/Casos Posibles= 7/20 = 0.35</p>
-<p>iii. Casos Favorables: 5
-Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos Favorables/Casos Posibles= 5/20 = 0.25</p>
+<p>La regresión lineal es un método estadístico que se utiliza para modelar la relación entre una variable dependiente y una o más variables independientes. La regresión lineal se utiliza para predecir el valor de la variable dependiente en función de los valores de las variables independientes. </p>
